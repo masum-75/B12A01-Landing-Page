@@ -165,3 +165,121 @@ height: 48px;
   color: rgba(0, 0, 0, 0.6);
   margin-top: 8px;
 }
+
+.feedback-section {
+  max-width: 1140px;
+  margin: 137px auto 137px;
+  height: 342px;
+}
+
+.feedback-section-title {
+  color: var(--black);
+  font-size: 42px;
+  font-weight: 700;
+  margin: 0;
+  margin-bottom: 50px;
+  text-align: center;
+}
+
+.feedback-section-card-container {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+}
+
+.feedback-section-card {
+  width: 366.67px;
+  padding: 24px;
+  background-color: rgba(255, 255, 255, 0.5);
+  border-radius: 14px;
+}
+
+.feedback-section-card-pic {
+  display: flex;
+  gap: 4px;
+  margin: 0;
+}
+
+.feedback-section-card-title {
+  color: rgba(30, 30, 30, 1);
+  font-size: 24px;
+  font-weight: 600;
+  margin: 24px 0 0 0;
+}
+
+.feedback-section-card-description {
+  font-size: 16px;
+  font-weight: 400;
+  color: rgba(30, 30, 30, 1);
+  width: 318.67px;
+  margin: 8px 0 24px 0;
+}
+
+
+.feedback-section-card-profile {
+  height: 46px;
+  display: flex;
+  align-items: center;
+  gap: 12px;
+}
+
+.feedback-section-card-profile-pic {
+  border-radius: 50%;
+}
+
+.feedback-section-card-profile-title {
+  font-size: 16px;
+  font-weight: 600;
+  color: rgba(117, 117, 117, 1);
+  margin: 0;
+  margin-bottom: 2px;
+}
+
+.feedback-section-card-profile-description {
+  color: rgba(179, 179, 179, 1);
+  font-size: 16px;
+  font-weight: 400;
+  margin: 0;
+}
+
+
+.focus-better {
+  max-width: 840px;
+  height: 396.77px;
+  background-color: white;
+  border-radius: 14px;
+  margin: 0 auto;
+  padding: 71px 150px;
+  text-align: center;
+}
+
+.facebook-title {
+  color: var(--black);
+  font-size: 50px;
+  font-weight: 700;
+  margin: 0;
+}
+
+.facebook-description {
+  font-size: 16px;
+  color: rgba(0, 0, 0, 0.5);
+  margin: 20px auto;
+}
+
+.facebook-btn {
+  width: 195px;
+  height: 48px;
+  margin-bottom: 20px;
+  font-size: 16px;
+  font-weight: 500;
+}
+
+.facebook-pic {
+  width: 840px;
+  align-items: center;
+  margin: 0 auto;
+}
+
+.facebook-pic img {
+  border-radius: 48px;
+}
