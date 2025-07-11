@@ -244,7 +244,7 @@ height: 48px;
 
 
 .focus-better {
-  max-width: 840px;
+  max-width: 1140px;
   height: 396.77px;
   background-color: white;
   border-radius: 14px;
@@ -282,4 +282,93 @@ height: 48px;
 
 .facebook-pic img {
   border-radius: 48px;
+}
+.touch-section {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  gap: 80px;
+  max-width: 1140px;
+  margin: 0 auto;
+  padding: 60px 20px;
+}
+
+.touch-section {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  flex-wrap: wrap;
+  max-width: 1140px;
+  margin: 120px auto;
+  padding: 30px;
+  gap: 80px;
+}
+
+.touch-section-title {
+  color: black;
+  font-size: 80px;
+  font-weight: 700;
+  width: 528px;
+  flex: 1;
+  text-align: center;
+}
+
+.form.inter-normal {
+  flex: 1;
+  max-width: 480px;
+  background: #f9f9f9;
+  padding: 30px;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0,0,0,0.05);
+}
+
+.touch-form-group {
+  margin-bottom: 20px;
+}
+
+label {
+  display: block;
+  font-size: 16px;
+  font-weight: 600;
+  margin-bottom: 8px;
+}
+
+input,
+textarea {
+  width: 100%;
+  height: auto;
+  padding: 14px 18px;
+  border-radius: 8px;
+  border: 1px solid #ccc;
+  outline: none;
+  font-size: 16px;
+  box-sizing: border-box;
+}
+
+textarea {
+  height: 120px;
+  resize: vertical;
+}
+
+input::placeholder,
+textarea::placeholder {
+  color: rgba(0, 0, 0, 0.5);
+  font-size: 16px;
+}
+
+.form-btn {
+  width: 100%;
+  background-color: #3b49df;
+  color: white;
+  font-weight: 700;
+  font-size: 16px;
+  padding: 16px;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  margin-top: 10px;
+}
+
+.form-btn:hover {
+  background-color: #2e3cbf;
 }
