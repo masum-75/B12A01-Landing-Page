@@ -372,3 +372,48 @@ textarea::placeholder {
 .form-btn:hover {
   background-color: #2e3cbf;
 }
+
+footer {
+  background-color: white;
+  height: 428px;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.footer-section {
+  width: 531px;
+  margin: 104px auto 0;
+  padding-top: 104px;
+}
+
+.footer-title {
+  color: #4E47FF;
+  font-size: 100px;
+  font-weight: 700;
+  margin: 0;
+  padding: 0;
+}
+
+.footer-description {
+  color: rgb(0, 0, 0);
+  font-size: 16px;
+  margin: 0;
+  padding-top: 8px;
+  padding-bottom: 20px;
+}
+
+.footer-link {
+  display: flex;
+  justify-content: center;
+  gap: 48px;
+  
+}
+
+.f-link a {
+  text-decoration: none;
+  font-size: 16px;
+  font-weight: bold;
+  color: rgb(36, 35, 56);
+  padding: 30px;
+  border-radius: 20px;
+}
