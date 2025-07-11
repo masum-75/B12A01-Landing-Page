@@ -80,3 +80,38 @@ height: 48px;
   width: 174px;
   height: 48px;
 }
+.action-section {
+  max-width: 1140px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 116px auto;
+  gap: 220px;
+}
+.action-container {
+  width: 517px;
+  height: 203px;
+}
+
+.action-title {
+  color: #252432;
+  font-size: 42px;
+  font-weight: 700;
+  margin-bottom: 0;
+}
+
+.action-subtitle {
+  margin: 23px 0;
+  color: #000000;
+  font-size: 24px;
+  font-weight: 400;
+  width: 517px;
+}
+
+.action-btn {
+  margin-top: 0;
+  width: 229px;
+  font-size: 16px;
+  font-weight: bold;
+  height: 48px;
+}
